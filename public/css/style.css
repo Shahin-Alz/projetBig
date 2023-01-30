@@ -222,16 +222,36 @@
   height: 15rem;
 }
 
+.divDinnerSection5 {
+  display: none;
+}
+
+.divDinner {
+  display: block;
+}
+
 .divBreakfastSection5 {
   display: none;
+}
+
+.divBreakfast {
+  display: block;
 }
 
 .divLunchSection5 {
   display: none;
 }
 
+.divLunch {
+  display: block;
+}
+
 .divStarterSection5 {
   display: none;
+}
+
+.divStarter {
+  display: block;
 }
 
 /*!
