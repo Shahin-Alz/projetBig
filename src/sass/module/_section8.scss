@@ -1,0 +1,36 @@
+#section8{
+    height: 50rem;
+    width: 100%;
+    padding-top: 100px;
+    background-color: rgba(238,238,238,255);
+}
+
+.titreSection8{
+    text-align: center;
+}
+
+.allCardDSection8{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.cardSection8{
+    height: 21rem;
+    width: 23%;
+    margin: 20px;
+    
+}
+
+.contenuCardSection8{
+    background-color: white;
+    text-align: center;
+    height: 15rem;
+    padding-top: 20px;
+}
+
+.imgCardSection8{
+    height: auto;
+    width: 100%;
+}

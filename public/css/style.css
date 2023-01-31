@@ -321,6 +321,91 @@
   border-radius: 120px;
 }
 
+#section7 {
+  width: 100%;
+  height: 35rem;
+}
+
+.titreSection7 {
+  width: 100%;
+  text-align: center;
+}
+
+.divCarousselSection7 {
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousselSection7 {
+  display: flex;
+  width: 100%;
+  height: 30rem;
+  justify-content: center;
+}
+
+.allImgSection7 {
+  flex-shrink: 0;
+  transition: 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30rem;
+}
+
+.imgSection7 {
+  width: 14%;
+  height: 30rem;
+  margin: 5px;
+}
+
+.allBtnSection7 {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.btnSection7 {
+  width: 15px;
+  background-color: gray;
+  height: 1rem;
+  border: none;
+  border-radius: 120px;
+}
+
+#section8 {
+  height: 50rem;
+  width: 100%;
+  padding-top: 100px;
+  background-color: rgb(238, 238, 238);
+}
+
+.titreSection8 {
+  text-align: center;
+}
+
+.allCardDSection8 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.cardSection8 {
+  height: 21rem;
+  width: 23%;
+  margin: 20px;
+}
+
+.contenuCardSection8 {
+  background-color: white;
+  text-align: center;
+  height: 15rem;
+  padding-top: 20px;
+}
+
+.imgCardSection8 {
+  height: auto;
+  width: 100%;
+}
+
 /*!
  * Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
