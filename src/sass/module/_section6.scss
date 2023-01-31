@@ -1,0 +1,74 @@
+#section6 {
+    height: 30rem;
+    background-color: rgba(238, 238, 238, 255);
+    // display: flex;
+    // justify-content: center;
+}
+
+.titreSousTitreSection6 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.test {
+    width: 1250px;
+    overflow: hidden;
+}
+
+.allDivSection6 {
+    display: flex;
+    transition: 0.5s;
+    width: 100%;
+    height: 17rem;
+    
+}
+
+.containerSection6 {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 15rem;
+    //transform: translate(-100%);
+
+
+}
+
+.lineSection6 {
+    height: 5rem;
+    width: 2px;
+    background-color: aqua;
+}
+
+.contenuPartiGaucheSection6 {
+    width: 50%;
+    margin-top: 70px;
+}
+
+.fa-star {
+    color: rgb(225, 225, 8);
+}
+
+.imgSection6 {
+    width: 100%;
+    height: 12rem;
+    border-radius: 130px;
+    border: 5px solid white;
+    margin-top: 45px
+}
+
+.btnBasSection6 {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.btnSection6 {
+    width: 15px;
+    background-color: gray;
+    height: 1rem;
+    border: none;
+    border-radius: 120px;
+}
+
+///////////////////////////////////////// Slide //////////////////////////////////////////
