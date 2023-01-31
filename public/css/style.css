@@ -406,6 +406,44 @@
   width: 100%;
 }
 
+#section9 {
+  height: 50rem;
+  width: 100%;
+}
+
+.titreSection9 {
+  text-align: center;
+  width: 100%;
+}
+
+.containerFormSection8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 35rem;
+}
+
+.formulaireSection8 {
+  display: flex;
+  justify-content: flex-start;
+  width: 80%;
+  height: 35rem;
+  background-color: rgb(238, 238, 238);
+}
+
+.contenuFormulaireSection9 {
+  padding: 50px;
+}
+
+.ligneInput1 {
+  display: flex;
+}
+
+.ligneInput2 {
+  display: flex;
+}
+
 /*!
  * Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
