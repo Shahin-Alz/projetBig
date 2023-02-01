@@ -1,0 +1,51 @@
+#section11{
+    width: 100%;
+    height: 50rem;    
+}
+
+.titreSection11{
+    width: 100%;
+    height: 10rem;
+    text-align: center;
+}
+
+.divMapSection11{
+    width: 100%;
+    height: 20rem;
+    text-align: center;
+}
+
+.mapSection11{
+    width: 70%;
+    height: 20rem;
+}
+
+.basSection11{
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+}
+
+.contenuSection11{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 34% !important;
+    background-color: #eeeeee;
+    margin: 15px;
+    padding: 10px;
+}
+
+.iconSection11{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    height: 3rem;
+    width: 40px;
+    background-color: #23d3c0;
+    border-radius: 90px;
+
+}
+
