@@ -1,0 +1,39 @@
+#footer {
+    width: 100%;
+    height: 15rem;
+    background-color: #1f1f24;
+    margin-top: 20px;
+}
+
+.contentAll {
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.contenuHautFooter {
+    display: flex;
+    margin: 15px;
+}
+
+.iconFooter {
+    display: flex;
+    align-items: center;
+    margin: 25px;
+}
+
+.hrFooter {
+    margin-top: 15px;
+    margin: auto;
+    width: 70%;
+    color: white;
+}
+
+.copyright{
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-top: 25px;
+}
