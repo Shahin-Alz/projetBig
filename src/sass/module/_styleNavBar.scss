@@ -2,34 +2,101 @@
     width: 100%;
     height: 75px;
     display: flex;
-
+    align-items: center;
 }
 
 .titreMiam {
     width: 15%;
+    font-weight: bolder;
+    font-size: larger;
 
 }
 
-.miam{
+.miam {
     margin: 15px;
     text-align: center;
 }
 
 .btnCentrauxNavBar {
-    display: flex;    
+    display: flex;
     width: 70%;
     justify-content: center;
 }
 
-.btnCentraux{
+.btnCentraux {
     margin: 15px;
+    font-weight: bold;
+    opacity: 0.5;
+    font-size: large;
+
 }
 
-.BtnBookTableNavBar{
+.btnCentraux:hover {
+    margin: 15px;
+    font-weight: bold;
+    font-size: large;
+    opacity: 1;
+    text-decoration: underline #23d3c0;
+}
+
+.BtnBookTableNavBar {
     width: 15%;
 
+
 }
 
-.btnBook{
-    margin: 15px;
+.btnBook {
+    color: white;
+    margin: 20px;
+    height: 40px;
+    border-radius: 90px;
+    border: none;
+    background-color: #23d3c0;
+    transition: 0.3s;
 }
+
+.btnBook:hover {
+    color: white;
+    margin: 20px;
+    height: 40px;
+    border-radius: 90px;
+    border: none;
+    background-color: #9a0d0d;
+
+}
+
+
+@media  screen and (max-width: 576px) {
+    #navBar{
+    width: 100%;
+    height: 550px;
+    
+    flex-direction: column;
+    }
+
+.btnCentrauxNavBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+}
+
+.btnCentraux {
+    margin: 15px;
+    font-weight: bold;
+    opacity: 0.5;
+    font-size: large;
+    text-align: center;
+
+}
+
+.BtnBookTableNavBar {
+    width: 100%;
+    text-align: center;
+
+
+}
+
+}
+

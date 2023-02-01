@@ -5,6 +5,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: cookiCool;
+}
+
+.titreSection1{
+    font-weight: bold;
 }
 
 .partieGaucheSection1{
@@ -12,11 +17,36 @@
     width: 50%;
     display: flex;
     justify-content: center;
+    align-items: center;
     //text-align: center;
+    font-size: larger;
 }
 
 .contenuPartiGaucheSection1{
     width: 40%;
+}
+
+.btnPartieDroiteSection1{
+    width: 100%;
+}
+
+.btnSection1{
+    color: white;
+    height: 50px;
+    width: 130px;
+    border-radius: 90px;
+    border: none;
+    background-color: #23d3c0;
+    transition: 0.3s;
+}
+
+.btnSection1:hover{
+    height: 50px;
+    width: 130px;
+    border-radius: 90px;
+    border: none;
+    background-color: #920a0a;
+    
 }
 
 

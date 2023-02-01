@@ -9,8 +9,23 @@
     text-align: center;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    font-family: cookiCool;
 
 }
+
+.spanSec2{
+    color: #23d3c0;
+}
+
+.span2Sec2{
+    color: #23d3c0;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+// p{
+//     font-weight: bold;
+// }
 
 .contenuSection2{
     display: flex;
@@ -53,4 +68,8 @@
 .imgPartieDroiteSection2{
     height: 17rem;
     width: 25rem;
+}
+
+.contenuPartieDroiteSQection2{
+    font-weight:500;
 }
