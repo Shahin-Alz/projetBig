@@ -8,12 +8,16 @@
   height: 75px;
   display: flex;
   align-items: center;
+  position: fixed;
+  z-index: 1;
+  background-color: white;
 }
 
 .titreMiam {
   width: 15%;
   font-weight: bolder;
   font-size: larger;
+  background-color: white;
 }
 
 .miam {
@@ -25,6 +29,7 @@
   display: flex;
   width: 70%;
   justify-content: center;
+  background-color: white;
 }
 
 .btnCentraux {
@@ -45,6 +50,7 @@
 
 .BtnBookTableNavBar {
   width: 15%;
+  background-color: white;
 }
 
 .btnBook {
@@ -447,10 +453,6 @@
 
 .divLunch {
   display: block;
-}
-
-.divStarterSection5 {
-  display: none;
 }
 
 .divStarter {
@@ -1030,6 +1032,30 @@
   text-align: center;
   color: white;
   margin-top: 25px;
+}
+
+#dark-mode-btn {
+  color: white;
+  height: 70px;
+  width: 200px;
+  border-radius: 90px;
+  border: none;
+  background-color: #23d3c0;
+  transition: 0.3s;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#dark-mode-btn:hover {
+  color: white;
+  height: 70px;
+  width: 200px;
+  border-radius: 90px;
+  border: none;
+  background-color: #d32323;
+  transition: 0.3s;
+  padding: 10px 20px;
+  cursor: pointer;
 }
 
 /*!

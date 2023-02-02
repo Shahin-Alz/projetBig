@@ -1,0 +1,25 @@
+#dark-mode-btn {
+    color: white;
+    height: 70px;
+    width: 200px;
+    border-radius: 90px;
+    border: none;
+    background-color: #23d3c0;
+    transition: 0.3s;
+    padding: 10px 20px;
+    
+    cursor: pointer;
+}
+
+#dark-mode-btn:hover {
+    color: white;
+    height: 70px;
+    width: 200px;
+    border-radius: 90px;
+    border: none;
+    background-color: #d32323;
+    transition: 0.3s;
+    padding: 10px 20px;
+    
+    cursor: pointer;
+}

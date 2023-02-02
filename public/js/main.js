@@ -21,10 +21,10 @@ btnStarter.addEventListener("click", function () {
 
     divBreakFast.classList.add("divBreakfastSection5")
     divBreakFast.classList.remove("divBreakfast");
-    
 
-    
-    
+
+
+
 })
 
 btnDinner.addEventListener("click", function () {
@@ -39,7 +39,7 @@ btnDinner.addEventListener("click", function () {
 
     divLunch.classList.add("divLunchSection5");
     divLunch.classList.remove("divLunch");
-    
+
 })
 
 btnLunch.addEventListener("click", function () {
@@ -54,7 +54,7 @@ btnLunch.addEventListener("click", function () {
 
     divLunch.classList.add("divDinnerSection5");
     divLunch.classList.remove("divDinner");
-    
+
 })
 
 btnBreakFast.addEventListener("click", function () {
@@ -69,7 +69,7 @@ btnBreakFast.addEventListener("click", function () {
 
     divLunch.classList.add("divLunchSection5");
     divLunch.classList.remove("divLunch");
-    
+
 })
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -150,7 +150,7 @@ btn4.addEventListener("click", function () {
     img2.classList.add("imgSection10");
     img3.classList.remove("imgSecSection10");
     img3.classList.add("imgSection10");
-    
+
     img5.classList.remove("imgSecSection10");
     img5.classList.add("imgSection10");
     img6.classList.remove("imgSecSection10");
@@ -197,7 +197,7 @@ btn6.addEventListener("click", function () {
     img3.classList.add("imgSection10");
     img4.classList.remove("imgSecSection10");
     img4.classList.add("imgSection10");
-   
+
     img7.classList.remove("imgSecSection10");
     img7.classList.add("imgSection10");
     img8.classList.remove("imgSecSection10");
@@ -224,7 +224,7 @@ btn7.addEventListener("click", function () {
     img4.classList.add("imgSection10");
     img5.classList.remove("imgSecSection10");
     img5.classList.add("imgSection10");
-    
+
     img8.classList.remove("imgSecSection10");
     img8.classList.add("imgSection10");
 
@@ -250,7 +250,7 @@ btn8.addEventListener("click", function () {
     img5.classList.add("imgSection10");
     img6.classList.remove("imgSecSection10");
     img6.classList.add("imgSection10");
-   
+
 
     img7.classList.remove("imgSecSection10");
     img7.classList.add("imgSection10")
@@ -328,3 +328,12 @@ btn1.addEventListener("click", function () {
     img1.classList.remove("imgSection10");
     img1.classList.add("imgSecSection10");
 })
+
+///////////////////////////////////////// DARK Mode
+
+const darkModeBtn = document.getElementById("dark-mode-btn");
+const body = document.body;
+
+darkModeBtn.addEventListener("click", function () {
+    body.style.backgroundColor = body.style.backgroundColor === "white" ? "black" : "white";
+});
