@@ -8,6 +8,11 @@
     margin-bottom: 30px;
     text-align: center;
     width: 100%;
+    font-family: cookiCool;
+}
+
+.spanSec9{
+    color: #23d3c0;
 }
 
 .containerFormSection8{
@@ -58,3 +63,26 @@
     text-align: center;
     margin-top: 50px;
 }
+
+.btnSection9{
+    width: 30%;
+    color: white;
+    height: 3rem;
+    background-color: #23d3c0;
+    border: none;
+    border-radius: 90px;
+    transition: 0.5s;
+
+}
+
+.btnSection9:hover{
+    width: 30%;
+    color: white;
+    height: 3rem;
+    background-color: #d32323;
+    border: none;
+    border-radius: 90px;
+    transition: 0.5s;
+
+}
+

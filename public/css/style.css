@@ -152,6 +152,44 @@
   width: 30rem;
 }
 
+@media screen and (max-width: 576px) {
+  #section1 {
+    width: 100%;
+    height: 50rem;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cookiCool;
+    flex-direction: column;
+  }
+  .partieDroiteSection1 {
+    height: 10rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .imgPartieGaucheSection1 {
+    height: 10rem;
+    width: 13rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btnPartieDroiteSection1 {
+    width: 100%;
+    height: 10rem;
+  }
+  .partieDroiteSection1 {
+    height: 20rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 #section2 {
   height: 50rem;
   width: 100%;
@@ -229,14 +267,22 @@
 
 .contenuSection3 {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
   padding-left: 80px;
   padding-right: 80px;
 }
 
+.Section3PartieDroite {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .div1Section3 {
   width: 30%;
-  height: 24rem;
+  height: 23rem;
   text-align: center;
   background-color: #23d3c0;
   display: flex;
@@ -247,17 +293,51 @@
 }
 
 .divSection3 {
-  width: 20%;
-  height: 16rem;
+  width: 100%;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
   background-color: white;
   padding: 20px;
+  margin-left: 15px;
+  transition: transform 0.2s;
+}
+
+.divSection3:hover {
+  transform: scale(1.5);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.iconSection3 {
+  background-color: #fbe9e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 90px;
+  height: 3rem;
+  width: 50px;
+  margin: 20px;
+}
+
+.fa-solid {
+  color: #23d3c0;
+}
+
+.btnDiv1Section3 {
+  border-radius: 90px;
+  border: none;
+  width: 40%;
+  height: 3rem;
+  background-color: #7be0d3;
+  color: white;
 }
 
 #section4 {
   width: 100%;
   height: 20rem;
-  background-image: url(../../../public/img/stats-bg.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../../public/img/stats-bg.jpg);
   background-attachment: fixed;
   display: flex;
   justify-content: space-evenly;
@@ -273,17 +353,30 @@
 
 .chiffreSection4 {
   font-weight: bolder;
+  font-size: xx-large;
 }
 
 #section5 {
   width: 100%;
-  height: 50rem;
+  height: 70rem;
 }
 
 .titreSection5 {
   width: 100%;
   height: 5rem;
   text-align: center;
+  font-family: cookiCool;
+  font-size: xx-large;
+  margin-top: 25px;
+}
+
+.spanSection5 {
+  color: #23d3c0;
+}
+
+.bigTitreSec5 {
+  color: #23d3c0;
+  font-size: xx-large;
 }
 
 .btnSection5 {
@@ -297,6 +390,13 @@
 .btnCentrauxSection5 {
   padding: 15px;
   font-size: larger;
+}
+
+.btnCentrauxSection5:hover {
+  padding: 15px;
+  font-size: larger;
+  color: #23d3c0;
+  text-decoration: underline;
 }
 
 .soustitreDivDinner {
@@ -365,11 +465,18 @@
 .titreSousTitreSection6 {
   text-align: center;
   padding-top: 50px;
+  font-family: cookiCool;
+}
+
+.spanSec6 {
+  color: #23d3c0;
 }
 
 .test {
-  width: 1250px;
+  width: 100;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 
 .allDivSection6 {
@@ -424,14 +531,31 @@
   border-radius: 120px;
 }
 
+.btnSection6:focus {
+  width: 15px;
+  background-color: #23d3c0;
+  height: 1rem;
+  border: none;
+  border-radius: 120px;
+}
+
 #section7 {
+  padding-top: 50px;
   width: 100%;
-  height: 35rem;
+  height: 50rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .titreSection7 {
   width: 100%;
   text-align: center;
+  font-family: cookiCool;
+}
+
+.spanSec7 {
+  color: #23d3c0;
 }
 
 .divCarousselSection7 {
@@ -442,8 +566,9 @@
 .carousselSection7 {
   display: flex;
   width: 100%;
-  height: 30rem;
+  height: 40rem;
   justify-content: center;
+  align-items: center;
 }
 
 .allImgSection7 {
@@ -455,10 +580,44 @@
   height: 30rem;
 }
 
-.imgSection7 {
-  width: 14%;
-  height: 30rem;
+.allContentImgSec7-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../../public/img/events-1.jpg);
+  width: 15%;
+  background-repeat: none;
+  height: 35rem;
   margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.allContentImgSec7-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../../public/img/events-2.jpg);
+  width: 15%;
+  height: 35rem;
+  margin: 5px;
+  background-repeat: none;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.allContentImgSec7-3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../../public/img/events-3.jpg);
+  width: 15%;
+  height: 35rem;
+  background-repeat: none;
+  margin: 5px;
+  justify-content: flex-end;
+  display: flex;
+  flex-direction: column;
+}
+
+.contentSec7 {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin: 25px;
 }
 
 .allBtnSection7 {
@@ -474,6 +633,11 @@
   border-radius: 120px;
 }
 
+.priceSec7 {
+  -webkit-text-decoration: underline #23d3c0;
+          text-decoration: underline #23d3c0;
+}
+
 #section8 {
   height: 55rem;
   width: 100%;
@@ -483,18 +647,25 @@
 
 .titreSection8 {
   text-align: center;
+  font-family: cookiCool;
+}
+
+.spanSec8 {
+  color: #23d3c0;
 }
 
 .allCardDSection8 {
   display: flex;
   justify-content: center;
   width: 100%;
+  height: 40rem;
 }
 
 .cardSection8 {
-  height: 21rem;
+  height: 32rem;
   width: 23%;
   margin: 20px;
+  transition: 0.5s;
 }
 
 .contenuCardSection8 {
@@ -505,8 +676,41 @@
 }
 
 .imgCardSection8 {
-  height: auto;
+  height: 15rem;
   width: 100%;
+  background-image: url(../../../public/img/chefs-1.jpg);
+  background-size: 400px;
+  background-repeat: none;
+}
+
+.imgCardSection8-2 {
+  height: 15rem;
+  width: 100%;
+  background-image: url(../../../public/img/chefs-2.jpg);
+  background-size: 400px;
+  background-repeat: none;
+}
+
+.imgCardSection8-3 {
+  height: 15rem;
+  width: 100%;
+  background-image: url(../../../public/img/chefs-3.jpg);
+  background-size: 400px;
+  background-repeat: none;
+}
+
+.resauxSection8 {
+  display: flex;
+  flex-direction: column;
+  height: 32rem;
+  width: 100%;
+  align-items: flex-end;
+  margin-right: 20px;
+}
+
+.cardSection8:hover {
+  transform: scale(1.2);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 #section9 {
@@ -519,6 +723,11 @@
   margin-bottom: 30px;
   text-align: center;
   width: 100%;
+  font-family: cookiCool;
+}
+
+.spanSec9 {
+  color: #23d3c0;
 }
 
 .containerFormSection8 {
@@ -567,22 +776,48 @@
   margin-top: 50px;
 }
 
+.btnSection9 {
+  width: 30%;
+  color: white;
+  height: 3rem;
+  background-color: #23d3c0;
+  border: none;
+  border-radius: 90px;
+  transition: 0.5s;
+}
+
+.btnSection9:hover {
+  width: 30%;
+  color: white;
+  height: 3rem;
+  background-color: #d32323;
+  border: none;
+  border-radius: 90px;
+  transition: 0.5s;
+}
+
 #section10 {
   width: 100%;
   height: 40rem;
+  padding-top: 25px;
   background-color: rgb(238, 238, 238);
 }
 
 .titreSection10 {
   width: 100%;
   text-align: center;
+  font-family: cookiCool;
+}
+
+.spanSec10 {
+  color: #23d3c0;
 }
 
 .allSection10 {
   display: flex;
   align-items: center;
   width: 100%;
-  height: 30rem;
+  height: 25rem;
 }
 
 .containerSection10 {
@@ -640,12 +875,19 @@
 #section11 {
   width: 100%;
   height: 70rem;
+  padding-top: 30px;
+  margin-bottom: 100px;
 }
 
 .titreSection11 {
   width: 100%;
   height: 10rem;
   text-align: center;
+  font-family: cookiCool;
+}
+
+.spanSec11 {
+  color: #23d3c0;
 }
 
 .divMapSection11 {
@@ -681,8 +923,8 @@
   align-items: center;
   justify-content: center;
   margin-right: 20px;
-  height: 3rem;
-  width: 40px;
+  height: 2rem;
+  width: 35px;
   background-color: #23d3c0;
   border-radius: 90px;
 }
@@ -728,6 +970,26 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.btnSection11 {
+  width: 20%;
+  color: white;
+  height: 3rem;
+  background-color: #23d3c0;
+  border: none;
+  border-radius: 90px;
+  transition: 0.5s;
+}
+
+.btnSection11:hover {
+  width: 20%;
+  color: white;
+  height: 3rem;
+  background-color: #d32323;
+  border: none;
+  border-radius: 90px;
+  transition: 0.5s;
 }
 
 #footer {

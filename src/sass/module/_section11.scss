@@ -1,12 +1,19 @@
 #section11{
     width: 100%;
-    height: 70rem;    
+    height: 70rem;   
+    padding-top: 30px; 
+    margin-bottom: 100px;
 }
 
 .titreSection11{
     width: 100%;
     height: 10rem;
     text-align: center;
+    font-family: cookiCool;
+}
+
+.spanSec11{
+    color: #23d3c0;
 }
 
 .divMapSection11{
@@ -42,8 +49,8 @@
     align-items: center;
     justify-content: center;
     margin-right: 20px;
-    height: 3rem;
-    width: 40px;
+    height: 2rem;
+    width: 35px;
     background-color: #23d3c0;
     border-radius: 90px;
 
@@ -93,5 +100,21 @@
 }
 
 .btnSection11{
-    
+    width: 20%;
+    color: white;
+    height: 3rem;
+    background-color: #23d3c0;
+    border: none;
+    border-radius: 90px;
+    transition: 0.5s;
+}
+
+.btnSection11:hover{
+    width: 20%;
+    color: white;
+    height: 3rem;
+    background-color: #d32323;
+    border: none;
+    border-radius: 90px;
+    transition: 0.5s;
 }

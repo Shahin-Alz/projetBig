@@ -1,15 +1,25 @@
 #section7 {
+    padding-top: 50px;
     width: 100%;
-    height: 35rem;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .titreSection7 {
     width: 100%;
     text-align: center;
+    font-family: cookiCool;
+}
+
+.spanSec7{
+    color: #23d3c0;
 }
 
 .divCarousselSection7 {
     width: 100%;
+
     overflow: hidden;
 
 }
@@ -17,8 +27,9 @@
 .carousselSection7 {
     display: flex;
     width: 100%;
-    height: 30rem;
+    height: 40rem;
     justify-content: center;
+    align-items: center;
 }
 
 .allImgSection7 {
@@ -30,15 +41,54 @@
     height: 30rem;
 }
 
-.imgSection7 {
-    width: 14%;
-    height: 30rem;
+.allContentImgSec7-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../../public/img/events-1.jpg);
+    width: 15%;
+    background-repeat: none;
+    height: 35rem;
     margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
 }
+
+
+.allContentImgSec7-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../../public/img/events-2.jpg);
+    width: 15%;
+    height: 35rem;
+    margin: 5px;
+    background-repeat: none;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+
+}
+
+.allContentImgSec7-3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../../public/img/events-3.jpg);
+    width: 15%;
+    height: 35rem;
+    background-repeat: none;
+    margin: 5px;
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+}
+
+.contentSec7 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 25px;
+}
+
 
 .allBtnSection7 {
     text-align: center;
     margin-top: 25px;
+
 }
 
 .btnSection7 {
@@ -47,4 +97,8 @@
     height: 1rem;
     border: none;
     border-radius: 120px;
+}
+
+.priceSec7{
+    text-decoration: underline #23d3c0;
 }
