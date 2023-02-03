@@ -25,6 +25,10 @@
   text-align: center;
 }
 
+a {
+  color: unset;
+}
+
 .btnCentrauxNavBar {
   display: flex;
   width: 70%;
@@ -431,12 +435,12 @@
   height: 15rem;
 }
 
-.divDinnerSection5 {
-  display: none;
+.divDinner {
+  display: block !important;
 }
 
-.divDinner {
-  display: block;
+.divDinnerSection5 {
+  display: none;
 }
 
 .divBreakfastSection5 {
@@ -453,6 +457,10 @@
 
 .divLunch {
   display: block;
+}
+
+.divStarterSection5 {
+  display: none;
 }
 
 .divStarter {
@@ -1056,6 +1064,55 @@
   transition: 0.3s;
   padding: 10px 20px;
   cursor: pointer;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 40%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
 }
 
 /*!
